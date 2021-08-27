@@ -1,0 +1,94 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+@font-face{
+    
+  font-family:'FontAwesome';
+  src:url('../fonts/fontawesome-webfont.eot?v=4.6.1');
+ 
+  font-family: 'SansitaSwashed';
+  src: url('../fonts/static/SansitaSwashed-Regular.ttf'); 
+
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+
+}
+
+
+/*Clases Utiles*/
+
+.big-txt{
+	font-size: 30px;
+}
+
+.white-txt{
+	color: #FFF;
+}
+
+.blue-txt{
+	color: #0077B9;
+}
+
+.blue-bg{
+	background-color: #0077B9;
+}
+
+.magenta-bg{
+	background-color: #EA2180;
+}
+
+.red-bg{
+	background-color: #BD191A;
+}
+
+.yellow-bg{
+	background-color: #FF9800;
+}
+
+.aqua-bg{
+	background-color: #03B4BA;
+}
+
+.green-bg{
+	background-color: #3BA16C;
+}
+
+/*Btn*/
+
+.btn-table{
+  padding: 7px;
+  display: inline-block;
+  margin: 0px 2px;
+  border-radius: 4px;
+  color: white;   
+  text-decoration: none;
+  font-family: 'SansitaSwashed';
+}
+
+/*Containers*/	
+
+.Container-100{
+	width: 100%;
+}
+
+/*Header*/
+
+.header {
+	font-family: Roboto;
+	font-style: bold;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.Company-Name{
+	margin-left: 50px;	
+	font-size: 22px;
+}
